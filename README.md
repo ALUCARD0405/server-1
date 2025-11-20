@@ -21,10 +21,12 @@ Creamos la matriz `Presupuesto[4, 3]` (4 filas, 3 columnas) con los valores orig
 Antes de realizar los cálculos, actualizamos los datos accediendo a su posición `[Fila, Columna]`.
 
 ```text
-// A. Corrección: El gasto de Servicios (Fila 2, Columna 2) fue 68, no 70.
+// A. Corrección: El gasto de Servicios (Fila 2, Columna 2)
+ fue 68, no 70.
 Presupuesto[2, 2] = 68 
 
-// B. Actualización: Aumento de 15 en Transporte (Fila 1, Columna 0).
+// B. Actualización: Aumento de 15 en Transporte
+ (Fila 1, Columna 0).
 // Valor actual (40) + 15 = 55.
 Presupuesto[1, 0] = Presupuesto[1, 0] + 15
 ```
